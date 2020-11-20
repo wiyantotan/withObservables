@@ -4,7 +4,8 @@ function _interopDefault (ex) { return (ex && (typeof ex === 'object') && 'defau
 
 var react = require('react');
 var hoistNonReactStatic = _interopDefault(require('hoist-non-react-statics'));
-var from = require('rxjs/observable/from');
+// var from = require('rxjs/observable/from');
+var from = require('rxjs');
 var combineLatest = require('rxjs/observable/combineLatest');
 var map = require('rxjs/operators/map');
 
